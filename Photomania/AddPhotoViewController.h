@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Photo.h"
+#import "Photographer.h"
 
 @interface AddPhotoViewController : UIViewController
 
+@property (nonatomic, strong) Photographer *photographerTakingPhoto;
+
+@property (nonatomic, strong) Photo *addedPhoto;
 @end

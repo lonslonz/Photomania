@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
 	<string>AECB341F-053A-4F4B-9095-53CA89354ADA</string>
+=======
+	<string>C8C70C2A-0237-4303-A705-1C0C846202F7</string>
+>>>>>>> 22b553bff105172aba92e5301fcac3923d927202
 	<key>IDESourceControlProjectName</key>
 	<string>Photomania</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>DEF8F545-652E-486B-B4F5-7053B4F5CCCE</key>
+=======
+		<key>2043E549-88FF-4174-AE73-CE0F2D503A12</key>
+>>>>>>> 22b553bff105172aba92e5301fcac3923d927202
 		<string>https://github.com/lonslonz/Photomania.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Photomania.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
 		<key>DEF8F545-652E-486B-B4F5-7053B4F5CCCE</key>
+=======
+		<key>2043E549-88FF-4174-AE73-CE0F2D503A12</key>
+>>>>>>> 22b553bff105172aba92e5301fcac3923d927202
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,16 +37,26 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
 	<string>DEF8F545-652E-486B-B4F5-7053B4F5CCCE</string>
+=======
+	<string>2043E549-88FF-4174-AE73-CE0F2D503A12</string>
+>>>>>>> 22b553bff105172aba92e5301fcac3923d927202
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
 			<string>DEF8F545-652E-486B-B4F5-7053B4F5CCCE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Photomania</string>
+=======
+			<string>2043E549-88FF-4174-AE73-CE0F2D503A12</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Photomanina</string>
+>>>>>>> 22b553bff105172aba92e5301fcac3923d927202
 		</dict>
 	</array>
 </dict>
