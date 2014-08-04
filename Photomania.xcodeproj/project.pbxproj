@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7559663C198B4525001C62D2 /* UIImage+CS193p.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559663B198B4525001C62D2 /* UIImage+CS193p.m */; };
+		7559663E198B46DE001C62D2 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7559663D198B46DE001C62D2 /* flower.jpg */; };
 		75CAE8BE1978BDDD00DAC68B /* AddPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CAE8BD1978BDDD00DAC68B /* AddPhotoViewController.m */; };
 		F757C4C71942F867005274A0 /* PhotosByPhotographerMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F757C4C61942F867005274A0 /* PhotosByPhotographerMapViewController.m */; };
 		F757C4C91942F9C3005274A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F757C4C81942F9C3005274A0 /* MapKit.framework */; };
@@ -53,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7559663A198B4525001C62D2 /* UIImage+CS193p.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CS193p.h"; sourceTree = "<group>"; };
+		7559663B198B4525001C62D2 /* UIImage+CS193p.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CS193p.m"; sourceTree = "<group>"; };
+		7559663D198B46DE001C62D2 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 		75CAE8BC1978BDDD00DAC68B /* AddPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPhotoViewController.h; sourceTree = "<group>"; };
 		75CAE8BD1978BDDD00DAC68B /* AddPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPhotoViewController.m; sourceTree = "<group>"; };
 		F757C4C51942F867005274A0 /* PhotosByPhotographerMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByPhotographerMapViewController.h; sourceTree = "<group>"; };
@@ -170,6 +175,7 @@
 		F7873D36192F3051005C7294 /* Photomania */ = {
 			isa = PBXGroup;
 			children = (
+				7559663D198B46DE001C62D2 /* flower.jpg */,
 				F7873D92193962FA005C7294 /* model */,
 				F7873D91193962D3005C7294 /* Controller */,
 				F7873D7A192F348D005C7294 /* Flickr Fetcher */,
@@ -181,6 +187,8 @@
 				F7873D45192F3051005C7294 /* Main_iPad.storyboard */,
 				F7873D4B192F3051005C7294 /* Images.xcassets */,
 				F7873D37192F3051005C7294 /* Supporting Files */,
+				7559663A198B4525001C62D2 /* UIImage+CS193p.h */,
+				7559663B198B4525001C62D2 /* UIImage+CS193p.m */,
 			);
 			path = Photomania;
 			sourceTree = "<group>";
@@ -373,6 +381,7 @@
 				F7873D47192F3051005C7294 /* Main_iPad.storyboard in Resources */,
 				F7873D4C192F3051005C7294 /* Images.xcassets in Resources */,
 				F7873D44192F3051005C7294 /* Main_iPhone.storyboard in Resources */,
+				7559663E198B46DE001C62D2 /* flower.jpg in Resources */,
 				F7873D3B192F3051005C7294 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +418,7 @@
 				F757C4CF1942FF26005274A0 /* Photo+Annotation.m in Sources */,
 				F7873D4A192F3051005C7294 /* PhotomaniaViewController.m in Sources */,
 				F7873D76192F3263005C7294 /* Photographer.m in Sources */,
+				7559663C198B4525001C62D2 /* UIImage+CS193p.m in Sources */,
 				F7873D7E192F348D005C7294 /* FlickrFetcher.m in Sources */,
 				F757C4D219432204005274A0 /* PhotosByPhotographerImageViewController.m in Sources */,
 				F7873D6A192F30B6005C7294 /* Photomania.xcdatamodeld in Sources */,
