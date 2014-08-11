@@ -1,0 +1,42 @@
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "0di-Uo-aaJ"; */
+"0di-Uo-aaJ.text" = "제목 길게 뽑기";
+
+/* Class = "IBUIButton"; normalTitle = "Cancel"; ObjectID = "2ND-ih-Dez"; */
+"2ND-ih-Dez.normalTitle" = "취소";
+
+/* Class = "IBUIButton"; normalTitle = "Done"; ObjectID = "71a-XJ-2Fb"; */
+"71a-XJ-2Fb.normalTitle" = "완료";
+
+/* Class = "IBUINavigationItem"; title = "Photomania"; ObjectID = "7M8-8c-TXW"; */
+"7M8-8c-TXW.title" = "포토우매니아";
+
+/* Class = "IBUIBarButtonItem"; title = "URL"; ObjectID = "89K-HW-BsQ"; */
+"89K-HW-BsQ.title" = "주소";
+
+/* Class = "IBUIButton"; normalTitle = "Take Photo"; ObjectID = "9Xg-ZR-Oz8"; */
+"9Xg-ZR-Oz8.normalTitle" = "사진 찍기";
+
+/* Class = "IBUITableViewController"; title = "Photos"; ObjectID = "9m8-au-yT1"; */
+"9m8-au-yT1.title" = "사진들";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "Nw3-DF-uE2"; */
+"Nw3-DF-uE2.text" = "부제목 길게 뽑기";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "bCr-iv-3UQ"; */
+"bCr-iv-3UQ.text" = "부제목";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "eE0-gR-upi"; */
+"eE0-gR-upi.text" = "제목";
+
+/* Class = "IBUITextView"; text = "http://www.stanford.edu"; ObjectID = "ktc-9l-pWb"; */
+"ktc-9l-pWb.text" = "http://www.stanford.edu";
+
+/* Class = "IBUILabel"; text = "Subtitle"; ObjectID = "mQX-bd-KgM"; */
+"mQX-bd-KgM.text" = "부제";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "mRS-bO-hiP"; */
+"mRS-bO-hiP.text" = "제목";
+
+/* Class = "IBUINavigationController"; title = "Photographers"; ObjectID = "xyl-o9-xeV"; */
+"xyl-o9-xeV.title" = "포타그래퍼";

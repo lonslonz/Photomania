@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		7559663C198B4525001C62D2 /* UIImage+CS193p.m in Sources */ = {isa = PBXBuildFile; fileRef = 7559663B198B4525001C62D2 /* UIImage+CS193p.m */; };
 		7559663E198B46DE001C62D2 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7559663D198B46DE001C62D2 /* flower.jpg */; };
+		75BDB8F61998704200E92376 /* AddPhotoViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75BDB8F81998704200E92376 /* AddPhotoViewController.strings */; };
+		75BDB8FD199872D700E92376 /* Entities.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75BDB8FF199872D700E92376 /* Entities.strings */; };
 		75CAE8BE1978BDDD00DAC68B /* AddPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75CAE8BD1978BDDD00DAC68B /* AddPhotoViewController.m */; };
 		F757C4C71942F867005274A0 /* PhotosByPhotographerMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F757C4C61942F867005274A0 /* PhotosByPhotographerMapViewController.m */; };
 		F757C4C91942F9C3005274A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F757C4C81942F9C3005274A0 /* MapKit.framework */; };
@@ -58,6 +60,15 @@
 		7559663A198B4525001C62D2 /* UIImage+CS193p.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CS193p.h"; sourceTree = "<group>"; };
 		7559663B198B4525001C62D2 /* UIImage+CS193p.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CS193p.m"; sourceTree = "<group>"; };
 		7559663D198B46DE001C62D2 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		75BDB8F01998691800E92376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		75BDB8F11998691800E92376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		75BDB8F21998691800E92376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75BDB8F31998691800E92376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75BDB8F71998704200E92376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/AddPhotoViewController.strings; sourceTree = "<group>"; };
+		75BDB8F91998704700E92376 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AddPhotoViewController.strings; sourceTree = "<group>"; };
+		75BDB8FA1998704800E92376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/AddPhotoViewController.strings; sourceTree = "<group>"; };
+		75BDB8FE199872D700E92376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Entities.strings; sourceTree = "<group>"; };
+		75BDB900199872D900E92376 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Entities.strings; sourceTree = "<group>"; };
 		75CAE8BC1978BDDD00DAC68B /* AddPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPhotoViewController.h; sourceTree = "<group>"; };
 		75CAE8BD1978BDDD00DAC68B /* AddPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPhotoViewController.m; sourceTree = "<group>"; };
 		F757C4C51942F867005274A0 /* PhotosByPhotographerMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByPhotographerMapViewController.h; sourceTree = "<group>"; };
@@ -254,6 +265,8 @@
 		F7873D91193962D3005C7294 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				75BDB8FF199872D700E92376 /* Entities.strings */,
+				75BDB8F81998704200E92376 /* AddPhotoViewController.strings */,
 				75CAE8BC1978BDDD00DAC68B /* AddPhotoViewController.h */,
 				75CAE8BD1978BDDD00DAC68B /* AddPhotoViewController.m */,
 				F757C4D019432204005274A0 /* PhotosByPhotographerImageViewController.h */,
@@ -361,6 +374,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = F7873D24192F3051005C7294;
 			productRefGroup = F7873D2E192F3051005C7294 /* Products */;
@@ -380,8 +394,10 @@
 			files = (
 				F7873D47192F3051005C7294 /* Main_iPad.storyboard in Resources */,
 				F7873D4C192F3051005C7294 /* Images.xcassets in Resources */,
+				75BDB8FD199872D700E92376 /* Entities.strings in Resources */,
 				F7873D44192F3051005C7294 /* Main_iPhone.storyboard in Resources */,
 				7559663E198B46DE001C62D2 /* flower.jpg in Resources */,
+				75BDB8F61998704200E92376 /* AddPhotoViewController.strings in Resources */,
 				F7873D3B192F3051005C7294 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,10 +460,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		75BDB8F81998704200E92376 /* AddPhotoViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BDB8F71998704200E92376 /* Base */,
+				75BDB8F91998704700E92376 /* en */,
+				75BDB8FA1998704800E92376 /* ko */,
+			);
+			name = AddPhotoViewController.strings;
+			sourceTree = "<group>";
+		};
+		75BDB8FF199872D700E92376 /* Entities.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75BDB8FE199872D700E92376 /* Base */,
+				75BDB900199872D900E92376 /* ko */,
+			);
+			name = Entities.strings;
+			sourceTree = "<group>";
+		};
 		F7873D39192F3051005C7294 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F7873D3A192F3051005C7294 /* en */,
+				75BDB8F21998691800E92376 /* ko */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -456,6 +492,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7873D43192F3051005C7294 /* Base */,
+				75BDB8F01998691800E92376 /* ko */,
 			);
 			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
@@ -464,6 +501,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7873D46192F3051005C7294 /* Base */,
+				75BDB8F11998691800E92376 /* ko */,
 			);
 			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
@@ -472,6 +510,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F7873D5C192F3052005C7294 /* en */,
+				75BDB8F31998691800E92376 /* ko */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";

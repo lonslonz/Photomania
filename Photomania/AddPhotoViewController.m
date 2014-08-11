@@ -12,6 +12,8 @@
 #import <MobileCoreServices/MobileCoreServices.h>
 #import "UIImage+CS193p.h"
 
+#define ALERT_CANT_ADD_PHOTO NSLocalizedStringFromTable(@"ALERT_CANT_ADD_PHOTO", @"AddPhotoViewController",@"Message given to user if user can't add photo")
+
 @interface AddPhotoViewController () <UITextFieldDelegate, UIAlertViewDelegate, CLLocationManagerDelegate,UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *titleTextField;
 @property (weak, nonatomic) IBOutlet UITextField *subtitleTextField;
@@ -27,6 +29,8 @@
 @end
 
 @implementation AddPhotoViewController
+
+
 
 + (BOOL)canAddPhoto
 {
@@ -45,7 +49,7 @@
 {
     [super viewDidAppear:animated];
     if(![[self class] canAddPhoto]) {
-        [self fatalAlert:@"Sorry, this device cannot add a photo"];
+        [self fatalAlert:ALERT_CANT_ADD_PHOTO];//@"Sorry, this device cannot add a photo"
     } else {
         [self.locationManager startUpdatingLocation];
     }
